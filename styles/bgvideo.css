@@ -1,0 +1,16 @@
+.bgvideo {
+    height: 25vh;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgvideo video {
+    height: 25vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}

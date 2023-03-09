@@ -1,0 +1,61 @@
+/* Фон асфальта */
+.bg-fon {
+    background: url(../img/bg-fon.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Цвет пунктов навигационной панели */
+.nav-link {
+    color: rgb(255, 200, 0);
+}
+
+/* Цвет и подсветка активных пунктов навигационной панели */
+.navbar-nav .nav-link.active {
+    color: rgb(255, 200, 0);
+    text-shadow:
+        0 0 7px rgb(255, 200, 0),
+        0 0 10px rgb(255, 200, 0),
+        0 0 21px rgb(255, 200, 0);
+}
+
+/* Параметры кнопки "Домашней страницы" */
+.logo {
+    width: 40px;
+}
+
+/* Параметры кнопки "бургера" */
+.navbar-toggler {
+    background-color: rgb(255, 200, 0);
+}
+
+/* Затенение текста главной страницы для лучшего восприятия */
+.inf-text, .card {
+    color: rgb(255, 200, 0);
+    text-shadow: 
+    0 0 7px rgb(0, 0, 0), 
+    0 0 10px rgb(0, 0, 0), 
+    0 0 21px rgb(0, 0, 0);
+}
+
+.carousel {
+    width: 100%;
+}
+
+a {
+    color: rgb(255, 200, 0);
+    text-decoration: none;
+}
+
+.footer {
+    color: rgb(255, 200, 0);
+    background-color: rgb(44, 44, 44);
+}
+
+.footer-text {
+    margin: auto auto;
+}
+
+.card {
+    background-color: rgb(44, 44, 44);
+}
